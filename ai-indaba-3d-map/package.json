@@ -1,0 +1,12 @@
+{
+  "name": "ai-indaba-sasolburg-3d-map",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Dependency-free embeddable 3D venue map for Sasol AI Indaba 2.0 - Sasolburg, 3 December 2026",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "serve": "python3 -m http.server 4173"
+  },
+  "exports": "./dist/ai-indaba-map.js"
+}
